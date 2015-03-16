@@ -1,0 +1,1431 @@
+[
+    {
+        "hash": "8e67d1003019579a17928a2eaecfbfb6",
+        "vitamins": [],
+        "title": "Quadstacle Gate",
+        "assemblies": [
+            {
+                "hash": "8177e2312199098174085a649b0704c8",
+                "vitamins": [],
+                "title": "Final Assembly",
+                "assemblies": [
+                    {
+                        "vitamins": [],
+                        "views": [],
+                        "assemblies": [],
+                        "title": "Leg",
+                        "qty": 2,
+                        "steps": [],
+                        "printed": [],
+                        "file": "assemblies/Legs.scad",
+                        "call": "LeftLegAssembly()",
+                        "level": 1
+                    }
+                ],
+                "views": [],
+                "qty": 1,
+                "call": "GateAssembly()",
+                "printed": [],
+                "file": "assemblies/Gate.scad",
+                "steps": [],
+                "level": 0
+            },
+            {
+                "hash": "7cf00596303dd4ff74480eadde03b73d",
+                "vitamins": [],
+                "title": "Leg",
+                "assemblies": [
+                    {
+                        "vitamins": [],
+                        "views": [],
+                        "assemblies": [],
+                        "title": "Toe",
+                        "qty": 2,
+                        "steps": [],
+                        "printed": [],
+                        "file": "assemblies/Toe.scad",
+                        "call": "ToeAssembly()",
+                        "level": 2
+                    },
+                    {
+                        "vitamins": [],
+                        "views": [],
+                        "assemblies": [],
+                        "title": "Mirror Holder",
+                        "qty": 6,
+                        "steps": [],
+                        "printed": [],
+                        "file": "assemblies/MirrorHolder.scad",
+                        "call": "MirrorHolderAssembly()",
+                        "level": 2
+                    }
+                ],
+                "views": [],
+                "qty": 2,
+                "call": "LeftLegAssembly()",
+                "printed": [
+                    {
+                        "views": [],
+                        "qty": 2,
+                        "call": "LegBracket1_STL()",
+                        "file": "printedparts/LegBracket1.scad",
+                        "title": "Leg Bracket 1"
+                    },
+                    {
+                        "views": [],
+                        "qty": 2,
+                        "call": "LegBracket2_STL()",
+                        "file": "printedparts/LegBracket2.scad",
+                        "title": "Leg Bracket 2"
+                    },
+                    {
+                        "views": [],
+                        "qty": 1,
+                        "call": "HoverCone_STL()",
+                        "file": "printedparts/HoverCone.scad",
+                        "title": "Hover Cone"
+                    },
+                    {
+                        "views": [],
+                        "qty": 2,
+                        "call": "SwivelMount_STL()",
+                        "file": "printedparts/SwivelMount.scad",
+                        "title": "Swivel Mount"
+                    }
+                ],
+                "file": "assemblies/Legs.scad",
+                "steps": [],
+                "level": 1
+            },
+            {
+                "hash": "0701d44e16f71886b2b05ed91cfb3cea",
+                "vitamins": [],
+                "title": "Toe",
+                "assemblies": [],
+                "views": [],
+                "qty": 2,
+                "call": "ToeAssembly()",
+                "printed": [
+                    {
+                        "views": [],
+                        "qty": 2,
+                        "call": "ToeBracket_STL()",
+                        "file": "printedparts/ToeBracket.scad",
+                        "title": "Toe Bracket"
+                    },
+                    {
+                        "views": [],
+                        "qty": 4,
+                        "call": "Toe_STL()",
+                        "file": "printedparts/Toe.scad",
+                        "title": "Toe"
+                    }
+                ],
+                "file": "assemblies/Toe.scad",
+                "steps": [
+                    {
+                        "views": [
+                            {
+                                "rotate": [
+                                    52,
+                                    0,
+                                    218
+                                ],
+                                "dist": 400,
+                                "filepath": "../assemblies/QuadstacleGate/Toe_step1_view.png",
+                                "title": "view",
+                                "caption": "view",
+                                "translate": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "view",
+                                "size": [
+                                    400,
+                                    300
+                                ]
+                            }
+                        ],
+                        "num": 1,
+                        "desc": "Do something"
+                    }
+                ],
+                "level": 2
+            },
+            {
+                "hash": "147bbca27ddace0543713b251fe5a8c4",
+                "vitamins": [],
+                "title": "Mirror Holder",
+                "assemblies": [],
+                "views": [],
+                "qty": 6,
+                "call": "MirrorHolderAssembly()",
+                "printed": [
+                    {
+                        "views": [],
+                        "qty": 6,
+                        "call": "MirrorHolder_STL()",
+                        "file": "printedparts/MirrorHolder.scad",
+                        "title": "Mirror Holder"
+                    }
+                ],
+                "file": "assemblies/MirrorHolder.scad",
+                "steps": [
+                    {
+                        "views": [
+                            {
+                                "rotate": [
+                                    52,
+                                    0,
+                                    218
+                                ],
+                                "dist": 400,
+                                "filepath": "../assemblies/QuadstacleGate/MirrorHolder_step1_view.png",
+                                "title": "view",
+                                "caption": "view",
+                                "translate": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "view",
+                                "size": [
+                                    400,
+                                    300
+                                ]
+                            }
+                        ],
+                        "num": 1,
+                        "desc": "Hot glue the mirror tile onto the holder"
+                    }
+                ],
+                "level": 2
+            }
+        ],
+        "printed": [
+            {
+                "hash": "3a9adfc68f056df1dca2446ad5327440",
+                "views": [
+                    {
+                        "rotate": [
+                            72,
+                            0,
+                            130
+                        ],
+                        "dist": 400,
+                        "title": "view",
+                        "filepath": "../printedparts/images/LegBracket1_view.png",
+                        "caption": "view",
+                        "translate": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "type": "view",
+                        "size": [
+                            400,
+                            300
+                        ]
+                    }
+                ],
+                "aabb": [
+                    [
+                        -18.24,
+                        -21.75,
+                        -42.5
+                    ],
+                    [
+                        18.24,
+                        24.5,
+                        14.25
+                    ]
+                ],
+                "title": "Leg Bracket 1",
+                "qty": 2,
+                "volume": 23934.997251224246,
+                "area": 11477.190674063973,
+                "call": "LegBracket1_STL()",
+                "file": "printedparts/LegBracket1.scad"
+            },
+            {
+                "hash": "c5edc39c7153f6bd033ea54510cf3046",
+                "views": [
+                    {
+                        "rotate": [
+                            72,
+                            0,
+                            130
+                        ],
+                        "dist": 400,
+                        "title": "view",
+                        "filepath": "../printedparts/images/LegBracket2_view.png",
+                        "caption": "view",
+                        "translate": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "type": "view",
+                        "size": [
+                            400,
+                            300
+                        ]
+                    }
+                ],
+                "aabb": [
+                    [
+                        -14.25,
+                        0.0,
+                        -14.25
+                    ],
+                    [
+                        14.25,
+                        28.5,
+                        14.25
+                    ]
+                ],
+                "title": "Leg Bracket 2",
+                "qty": 2,
+                "volume": 12363.948314849185,
+                "area": 7230.359484178972,
+                "call": "LegBracket2_STL()",
+                "file": "printedparts/LegBracket2.scad"
+            },
+            {
+                "hash": "d4517f6a0564f54cd6b6a52594c01ce0",
+                "views": [
+                    {
+                        "rotate": [
+                            72,
+                            0,
+                            130
+                        ],
+                        "dist": 400,
+                        "title": "view",
+                        "filepath": "../printedparts/images/ToeBracket_view.png",
+                        "caption": "view",
+                        "translate": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "type": "view",
+                        "size": [
+                            400,
+                            300
+                        ]
+                    }
+                ],
+                "aabb": [
+                    [
+                        -32.5,
+                        0.0,
+                        -14.25
+                    ],
+                    [
+                        32.5,
+                        28.5,
+                        14.25
+                    ]
+                ],
+                "title": "Toe Bracket",
+                "qty": 2,
+                "volume": 16548.14524328497,
+                "area": 9696.316736723955,
+                "call": "ToeBracket_STL()",
+                "file": "printedparts/ToeBracket.scad"
+            },
+            {
+                "hash": "16cbc3103e45295d7d4e1eaddb1101a5",
+                "views": [
+                    {
+                        "rotate": [
+                            72,
+                            0,
+                            130
+                        ],
+                        "dist": 400,
+                        "title": "view",
+                        "filepath": "../printedparts/images/Toe_view.png",
+                        "caption": "view",
+                        "translate": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "type": "view",
+                        "size": [
+                            400,
+                            300
+                        ]
+                    }
+                ],
+                "aabb": [
+                    [
+                        -5.53188,
+                        -182.703,
+                        -2.0
+                    ],
+                    [
+                        5.0,
+                        17.9535,
+                        2.0
+                    ]
+                ],
+                "title": "Toe",
+                "qty": 4,
+                "volume": 7336.5338764187645,
+                "area": 5394.08450438584,
+                "call": "Toe_STL()",
+                "file": "printedparts/Toe.scad"
+            },
+            {
+                "hash": "b1f546ea126d379de4538466b9e4af41",
+                "views": [
+                    {
+                        "rotate": [
+                            72,
+                            0,
+                            130
+                        ],
+                        "dist": 400,
+                        "title": "view",
+                        "filepath": "../printedparts/images/MirrorHolder_view.png",
+                        "caption": "view",
+                        "translate": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "type": "view",
+                        "size": [
+                            400,
+                            300
+                        ]
+                    }
+                ],
+                "aabb": [
+                    [
+                        -12.25,
+                        0.0,
+                        -6.0
+                    ],
+                    [
+                        12.25,
+                        24.5,
+                        14.24
+                    ]
+                ],
+                "title": "Mirror Holder",
+                "qty": 6,
+                "volume": 3305.1602440388006,
+                "area": 3547.9131126565776,
+                "call": "MirrorHolder_STL()",
+                "file": "printedparts/MirrorHolder.scad"
+            },
+            {
+                "hash": "3a8d64126040f38395d859383bb02771",
+                "views": [
+                    {
+                        "rotate": [
+                            72,
+                            0,
+                            130
+                        ],
+                        "dist": 400,
+                        "title": "view",
+                        "filepath": "../printedparts/images/HoverCone_view.png",
+                        "caption": "view",
+                        "translate": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "type": "view",
+                        "size": [
+                            400,
+                            300
+                        ]
+                    }
+                ],
+                "aabb": [
+                    [
+                        -22.0,
+                        0.0,
+                        -6.0
+                    ],
+                    [
+                        22.0,
+                        27.99,
+                        40.25
+                    ]
+                ],
+                "title": "Hover Cone",
+                "qty": 1,
+                "volume": 7609.018691023636,
+                "area": 6619.962403085512,
+                "call": "HoverCone_STL()",
+                "file": "printedparts/HoverCone.scad"
+            },
+            {
+                "hash": "a85e654259bfb374a8ce605c5b9433a3",
+                "views": [
+                    {
+                        "rotate": [
+                            72,
+                            0,
+                            130
+                        ],
+                        "dist": 400,
+                        "title": "view",
+                        "filepath": "../printedparts/images/SwivelMount_view.png",
+                        "caption": "view",
+                        "translate": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "type": "view",
+                        "size": [
+                            400,
+                            300
+                        ]
+                    }
+                ],
+                "aabb": [
+                    [
+                        -12.25,
+                        0.0,
+                        -6.0
+                    ],
+                    [
+                        12.25,
+                        8.0,
+                        23.75
+                    ]
+                ],
+                "title": "Swivel Mount",
+                "qty": 2,
+                "volume": 1286.9255630818377,
+                "area": 1756.8425201917357,
+                "call": "SwivelMount_STL()",
+                "file": "printedparts/SwivelMount.scad"
+            }
+        ],
+        "file": "Gate.scad",
+        "type": "machine",
+        "children": [
+            {
+                "rotate": [
+                    73,
+                    0,
+                    229
+                ],
+                "dist": 1951,
+                "title": "view",
+                "filepath": "../images/QuadstacleGate_view.png",
+                "caption": "view",
+                "translate": [
+                    68,
+                    49,
+                    -37
+                ],
+                "type": "view",
+                "size": [
+                    1024,
+                    768
+                ]
+            },
+            {
+                "type": "assembly",
+                "call": "GateAssembly()",
+                "children": [
+                    {
+                        "type": "assembly",
+                        "call": "LeftLegAssembly()",
+                        "children": [
+                            {
+                                "type": "printed",
+                                "call": "LegBracket1_STL()",
+                                "children": [
+                                    {
+                                        "rotate": [
+                                            72,
+                                            0,
+                                            130
+                                        ],
+                                        "dist": 400,
+                                        "title": "view",
+                                        "caption": "view",
+                                        "translate": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "type": "view",
+                                        "size": [
+                                            400,
+                                            300
+                                        ]
+                                    }
+                                ],
+                                "file": "printedparts/LegBracket1.scad",
+                                "title": "Leg Bracket 1"
+                            },
+                            {
+                                "type": "printed",
+                                "call": "LegBracket2_STL()",
+                                "children": [
+                                    {
+                                        "rotate": [
+                                            72,
+                                            0,
+                                            130
+                                        ],
+                                        "dist": 400,
+                                        "title": "view",
+                                        "caption": "view",
+                                        "translate": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "type": "view",
+                                        "size": [
+                                            400,
+                                            300
+                                        ]
+                                    }
+                                ],
+                                "file": "printedparts/LegBracket2.scad",
+                                "title": "Leg Bracket 2"
+                            },
+                            {
+                                "type": "assembly",
+                                "call": "ToeAssembly()",
+                                "children": [
+                                    {
+                                        "type": "printed",
+                                        "call": "ToeBracket_STL()",
+                                        "children": [
+                                            {
+                                                "rotate": [
+                                                    72,
+                                                    0,
+                                                    130
+                                                ],
+                                                "dist": 400,
+                                                "title": "view",
+                                                "caption": "view",
+                                                "translate": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "type": "view",
+                                                "size": [
+                                                    400,
+                                                    300
+                                                ]
+                                            }
+                                        ],
+                                        "file": "printedparts/ToeBracket.scad",
+                                        "title": "Toe Bracket"
+                                    },
+                                    {
+                                        "num": 1,
+                                        "type": "step",
+                                        "children": [
+                                            {
+                                                "rotate": [
+                                                    52,
+                                                    0,
+                                                    218
+                                                ],
+                                                "dist": 400,
+                                                "title": "view",
+                                                "caption": "view",
+                                                "translate": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "type": "view",
+                                                "size": [
+                                                    400,
+                                                    300
+                                                ]
+                                            },
+                                            {
+                                                "type": "printed",
+                                                "call": "Toe_STL()",
+                                                "children": [
+                                                    {
+                                                        "rotate": [
+                                                            72,
+                                                            0,
+                                                            130
+                                                        ],
+                                                        "dist": 400,
+                                                        "title": "view",
+                                                        "caption": "view",
+                                                        "translate": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "type": "view",
+                                                        "size": [
+                                                            400,
+                                                            300
+                                                        ]
+                                                    }
+                                                ],
+                                                "file": "printedparts/Toe.scad",
+                                                "title": "Toe"
+                                            },
+                                            {
+                                                "type": "printed",
+                                                "call": "Toe_STL()",
+                                                "children": [
+                                                    {
+                                                        "rotate": [
+                                                            72,
+                                                            0,
+                                                            130
+                                                        ],
+                                                        "dist": 400,
+                                                        "title": "view",
+                                                        "caption": "view",
+                                                        "translate": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "type": "view",
+                                                        "size": [
+                                                            400,
+                                                            300
+                                                        ]
+                                                    }
+                                                ],
+                                                "file": "printedparts/Toe.scad",
+                                                "title": "Toe"
+                                            }
+                                        ],
+                                        "desc": "Do something"
+                                    }
+                                ],
+                                "file": "assemblies/Toe.scad",
+                                "title": "Toe"
+                            },
+                            {
+                                "type": "assembly",
+                                "call": "MirrorHolderAssembly()",
+                                "children": [
+                                    {
+                                        "type": "printed",
+                                        "call": "MirrorHolder_STL()",
+                                        "children": [
+                                            {
+                                                "rotate": [
+                                                    72,
+                                                    0,
+                                                    130
+                                                ],
+                                                "dist": 400,
+                                                "title": "view",
+                                                "caption": "view",
+                                                "translate": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "type": "view",
+                                                "size": [
+                                                    400,
+                                                    300
+                                                ]
+                                            }
+                                        ],
+                                        "file": "printedparts/MirrorHolder.scad",
+                                        "title": "Mirror Holder"
+                                    },
+                                    {
+                                        "num": 1,
+                                        "type": "step",
+                                        "children": [
+                                            {
+                                                "rotate": [
+                                                    52,
+                                                    0,
+                                                    218
+                                                ],
+                                                "dist": 400,
+                                                "title": "view",
+                                                "caption": "view",
+                                                "translate": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "type": "view",
+                                                "size": [
+                                                    400,
+                                                    300
+                                                ]
+                                            }
+                                        ],
+                                        "desc": "Hot glue the mirror tile onto the holder"
+                                    }
+                                ],
+                                "file": "assemblies/MirrorHolder.scad",
+                                "title": "Mirror Holder"
+                            },
+                            {
+                                "type": "assembly",
+                                "call": "MirrorHolderAssembly()",
+                                "children": [
+                                    {
+                                        "type": "printed",
+                                        "call": "MirrorHolder_STL()",
+                                        "children": [
+                                            {
+                                                "rotate": [
+                                                    72,
+                                                    0,
+                                                    130
+                                                ],
+                                                "dist": 400,
+                                                "title": "view",
+                                                "caption": "view",
+                                                "translate": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "type": "view",
+                                                "size": [
+                                                    400,
+                                                    300
+                                                ]
+                                            }
+                                        ],
+                                        "file": "printedparts/MirrorHolder.scad",
+                                        "title": "Mirror Holder"
+                                    },
+                                    {
+                                        "num": 1,
+                                        "type": "step",
+                                        "children": [
+                                            {
+                                                "rotate": [
+                                                    52,
+                                                    0,
+                                                    218
+                                                ],
+                                                "dist": 400,
+                                                "title": "view",
+                                                "caption": "view",
+                                                "translate": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "type": "view",
+                                                "size": [
+                                                    400,
+                                                    300
+                                                ]
+                                            }
+                                        ],
+                                        "desc": "Hot glue the mirror tile onto the holder"
+                                    }
+                                ],
+                                "file": "assemblies/MirrorHolder.scad",
+                                "title": "Mirror Holder"
+                            },
+                            {
+                                "type": "assembly",
+                                "call": "MirrorHolderAssembly()",
+                                "children": [
+                                    {
+                                        "type": "printed",
+                                        "call": "MirrorHolder_STL()",
+                                        "children": [
+                                            {
+                                                "rotate": [
+                                                    72,
+                                                    0,
+                                                    130
+                                                ],
+                                                "dist": 400,
+                                                "title": "view",
+                                                "caption": "view",
+                                                "translate": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "type": "view",
+                                                "size": [
+                                                    400,
+                                                    300
+                                                ]
+                                            }
+                                        ],
+                                        "file": "printedparts/MirrorHolder.scad",
+                                        "title": "Mirror Holder"
+                                    },
+                                    {
+                                        "num": 1,
+                                        "type": "step",
+                                        "children": [
+                                            {
+                                                "rotate": [
+                                                    52,
+                                                    0,
+                                                    218
+                                                ],
+                                                "dist": 400,
+                                                "title": "view",
+                                                "caption": "view",
+                                                "translate": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "type": "view",
+                                                "size": [
+                                                    400,
+                                                    300
+                                                ]
+                                            }
+                                        ],
+                                        "desc": "Hot glue the mirror tile onto the holder"
+                                    }
+                                ],
+                                "file": "assemblies/MirrorHolder.scad",
+                                "title": "Mirror Holder"
+                            }
+                        ],
+                        "file": "assemblies/Legs.scad",
+                        "title": "Leg"
+                    },
+                    {
+                        "type": "assembly",
+                        "call": "LeftLegAssembly()",
+                        "children": [
+                            {
+                                "type": "printed",
+                                "call": "LegBracket1_STL()",
+                                "children": [
+                                    {
+                                        "rotate": [
+                                            72,
+                                            0,
+                                            130
+                                        ],
+                                        "dist": 400,
+                                        "title": "view",
+                                        "caption": "view",
+                                        "translate": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "type": "view",
+                                        "size": [
+                                            400,
+                                            300
+                                        ]
+                                    }
+                                ],
+                                "file": "printedparts/LegBracket1.scad",
+                                "title": "Leg Bracket 1"
+                            },
+                            {
+                                "type": "printed",
+                                "call": "LegBracket2_STL()",
+                                "children": [
+                                    {
+                                        "rotate": [
+                                            72,
+                                            0,
+                                            130
+                                        ],
+                                        "dist": 400,
+                                        "title": "view",
+                                        "caption": "view",
+                                        "translate": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "type": "view",
+                                        "size": [
+                                            400,
+                                            300
+                                        ]
+                                    }
+                                ],
+                                "file": "printedparts/LegBracket2.scad",
+                                "title": "Leg Bracket 2"
+                            },
+                            {
+                                "type": "assembly",
+                                "call": "ToeAssembly()",
+                                "children": [
+                                    {
+                                        "type": "printed",
+                                        "call": "ToeBracket_STL()",
+                                        "children": [
+                                            {
+                                                "rotate": [
+                                                    72,
+                                                    0,
+                                                    130
+                                                ],
+                                                "dist": 400,
+                                                "title": "view",
+                                                "caption": "view",
+                                                "translate": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "type": "view",
+                                                "size": [
+                                                    400,
+                                                    300
+                                                ]
+                                            }
+                                        ],
+                                        "file": "printedparts/ToeBracket.scad",
+                                        "title": "Toe Bracket"
+                                    },
+                                    {
+                                        "num": 1,
+                                        "type": "step",
+                                        "children": [
+                                            {
+                                                "rotate": [
+                                                    52,
+                                                    0,
+                                                    218
+                                                ],
+                                                "dist": 400,
+                                                "title": "view",
+                                                "caption": "view",
+                                                "translate": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "type": "view",
+                                                "size": [
+                                                    400,
+                                                    300
+                                                ]
+                                            },
+                                            {
+                                                "type": "printed",
+                                                "call": "Toe_STL()",
+                                                "children": [
+                                                    {
+                                                        "rotate": [
+                                                            72,
+                                                            0,
+                                                            130
+                                                        ],
+                                                        "dist": 400,
+                                                        "title": "view",
+                                                        "caption": "view",
+                                                        "translate": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "type": "view",
+                                                        "size": [
+                                                            400,
+                                                            300
+                                                        ]
+                                                    }
+                                                ],
+                                                "file": "printedparts/Toe.scad",
+                                                "title": "Toe"
+                                            },
+                                            {
+                                                "type": "printed",
+                                                "call": "Toe_STL()",
+                                                "children": [
+                                                    {
+                                                        "rotate": [
+                                                            72,
+                                                            0,
+                                                            130
+                                                        ],
+                                                        "dist": 400,
+                                                        "title": "view",
+                                                        "caption": "view",
+                                                        "translate": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "type": "view",
+                                                        "size": [
+                                                            400,
+                                                            300
+                                                        ]
+                                                    }
+                                                ],
+                                                "file": "printedparts/Toe.scad",
+                                                "title": "Toe"
+                                            }
+                                        ],
+                                        "desc": "Do something"
+                                    }
+                                ],
+                                "file": "assemblies/Toe.scad",
+                                "title": "Toe"
+                            },
+                            {
+                                "type": "printed",
+                                "call": "HoverCone_STL()",
+                                "children": [
+                                    {
+                                        "rotate": [
+                                            72,
+                                            0,
+                                            130
+                                        ],
+                                        "dist": 400,
+                                        "title": "view",
+                                        "caption": "view",
+                                        "translate": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "type": "view",
+                                        "size": [
+                                            400,
+                                            300
+                                        ]
+                                    }
+                                ],
+                                "file": "printedparts/HoverCone.scad",
+                                "title": "Hover Cone"
+                            },
+                            {
+                                "type": "printed",
+                                "call": "SwivelMount_STL()",
+                                "children": [
+                                    {
+                                        "rotate": [
+                                            72,
+                                            0,
+                                            130
+                                        ],
+                                        "dist": 400,
+                                        "title": "view",
+                                        "caption": "view",
+                                        "translate": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "type": "view",
+                                        "size": [
+                                            400,
+                                            300
+                                        ]
+                                    }
+                                ],
+                                "file": "printedparts/SwivelMount.scad",
+                                "title": "Swivel Mount"
+                            },
+                            {
+                                "type": "printed",
+                                "call": "SwivelMount_STL()",
+                                "children": [
+                                    {
+                                        "rotate": [
+                                            72,
+                                            0,
+                                            130
+                                        ],
+                                        "dist": 400,
+                                        "title": "view",
+                                        "caption": "view",
+                                        "translate": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "type": "view",
+                                        "size": [
+                                            400,
+                                            300
+                                        ]
+                                    }
+                                ],
+                                "file": "printedparts/SwivelMount.scad",
+                                "title": "Swivel Mount"
+                            },
+                            {
+                                "type": "assembly",
+                                "call": "MirrorHolderAssembly()",
+                                "children": [
+                                    {
+                                        "type": "printed",
+                                        "call": "MirrorHolder_STL()",
+                                        "children": [
+                                            {
+                                                "rotate": [
+                                                    72,
+                                                    0,
+                                                    130
+                                                ],
+                                                "dist": 400,
+                                                "title": "view",
+                                                "caption": "view",
+                                                "translate": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "type": "view",
+                                                "size": [
+                                                    400,
+                                                    300
+                                                ]
+                                            }
+                                        ],
+                                        "file": "printedparts/MirrorHolder.scad",
+                                        "title": "Mirror Holder"
+                                    },
+                                    {
+                                        "num": 1,
+                                        "type": "step",
+                                        "children": [
+                                            {
+                                                "rotate": [
+                                                    52,
+                                                    0,
+                                                    218
+                                                ],
+                                                "dist": 400,
+                                                "title": "view",
+                                                "caption": "view",
+                                                "translate": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "type": "view",
+                                                "size": [
+                                                    400,
+                                                    300
+                                                ]
+                                            }
+                                        ],
+                                        "desc": "Hot glue the mirror tile onto the holder"
+                                    }
+                                ],
+                                "file": "assemblies/MirrorHolder.scad",
+                                "title": "Mirror Holder"
+                            },
+                            {
+                                "type": "assembly",
+                                "call": "MirrorHolderAssembly()",
+                                "children": [
+                                    {
+                                        "type": "printed",
+                                        "call": "MirrorHolder_STL()",
+                                        "children": [
+                                            {
+                                                "rotate": [
+                                                    72,
+                                                    0,
+                                                    130
+                                                ],
+                                                "dist": 400,
+                                                "title": "view",
+                                                "caption": "view",
+                                                "translate": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "type": "view",
+                                                "size": [
+                                                    400,
+                                                    300
+                                                ]
+                                            }
+                                        ],
+                                        "file": "printedparts/MirrorHolder.scad",
+                                        "title": "Mirror Holder"
+                                    },
+                                    {
+                                        "num": 1,
+                                        "type": "step",
+                                        "children": [
+                                            {
+                                                "rotate": [
+                                                    52,
+                                                    0,
+                                                    218
+                                                ],
+                                                "dist": 400,
+                                                "title": "view",
+                                                "caption": "view",
+                                                "translate": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "type": "view",
+                                                "size": [
+                                                    400,
+                                                    300
+                                                ]
+                                            }
+                                        ],
+                                        "desc": "Hot glue the mirror tile onto the holder"
+                                    }
+                                ],
+                                "file": "assemblies/MirrorHolder.scad",
+                                "title": "Mirror Holder"
+                            },
+                            {
+                                "type": "assembly",
+                                "call": "MirrorHolderAssembly()",
+                                "children": [
+                                    {
+                                        "type": "printed",
+                                        "call": "MirrorHolder_STL()",
+                                        "children": [
+                                            {
+                                                "rotate": [
+                                                    72,
+                                                    0,
+                                                    130
+                                                ],
+                                                "dist": 400,
+                                                "title": "view",
+                                                "caption": "view",
+                                                "translate": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "type": "view",
+                                                "size": [
+                                                    400,
+                                                    300
+                                                ]
+                                            }
+                                        ],
+                                        "file": "printedparts/MirrorHolder.scad",
+                                        "title": "Mirror Holder"
+                                    },
+                                    {
+                                        "num": 1,
+                                        "type": "step",
+                                        "children": [
+                                            {
+                                                "rotate": [
+                                                    52,
+                                                    0,
+                                                    218
+                                                ],
+                                                "dist": 400,
+                                                "title": "view",
+                                                "caption": "view",
+                                                "translate": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "type": "view",
+                                                "size": [
+                                                    400,
+                                                    300
+                                                ]
+                                            }
+                                        ],
+                                        "desc": "Hot glue the mirror tile onto the holder"
+                                    }
+                                ],
+                                "file": "assemblies/MirrorHolder.scad",
+                                "title": "Mirror Holder"
+                            }
+                        ],
+                        "file": "assemblies/Legs.scad",
+                        "title": "Leg"
+                    }
+                ],
+                "file": "assemblies/Gate.scad",
+                "title": "Final Assembly"
+            }
+        ]
+    },
+    {
+        "files": [
+            {
+                "type": "file",
+                "file": "Gate.scad"
+            },
+            {
+                "type": "file",
+                "file": "assemblies/Gate.scad"
+            },
+            {
+                "type": "file",
+                "file": "assemblies/Legs.scad"
+            },
+            {
+                "type": "file",
+                "file": "printedparts/LegBracket1.scad"
+            },
+            {
+                "type": "file",
+                "file": "printedparts/LegBracket2.scad"
+            },
+            {
+                "type": "file",
+                "file": "assemblies/Toe.scad"
+            },
+            {
+                "type": "file",
+                "file": "printedparts/ToeBracket.scad"
+            },
+            {
+                "type": "file",
+                "file": "printedparts/Toe.scad"
+            },
+            {
+                "type": "file",
+                "file": "assemblies/MirrorHolder.scad"
+            },
+            {
+                "type": "file",
+                "file": "printedparts/MirrorHolder.scad"
+            },
+            {
+                "type": "file",
+                "file": "printedparts/HoverCone.scad"
+            },
+            {
+                "type": "file",
+                "file": "printedparts/SwivelMount.scad"
+            }
+        ],
+        "type": "filelist"
+    }
+]
